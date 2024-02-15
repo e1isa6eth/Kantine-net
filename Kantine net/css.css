@@ -1,0 +1,88 @@
+﻿/************************************** TAG SELECTORS FOR ALL PAGES *************************************/
+body {
+    background-color: dimgrey;
+    width: 100%;
+    height: 377px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+hr {
+    border-color: rgb(155, 155, 155);
+    border-width: 3px;
+    width: 90%;
+}
+
+h1, h2, h3, h
+h5, h4,
+i,
+label {
+    color: #2C2C2C;
+    font-family: "Cabin", sans-serif;
+}
+
+
+a {
+    color: rgb(107, 107, 107);
+    font-family: "Cabin", sans-serif;
+}
+
+th,
+td {
+    padding: 25px;
+}
+
+
+/************************************** CLASS SELECTORS *************************************/
+
+.itemLeft {
+    float: left;
+    margin-right: 40px;
+}
+
+
+.itemRight {
+    float: right;
+    margin-right: 40px;
+}
+
+.grid {
+    color: aliceblue;
+    font-family: "Cabin", sans-serif;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/**************************** NAVIGATION BAR FOR ALL PAGES ****************************/
+
+#footer {
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(35, 38, 38);
+}
+
+.navbar {
+    background-color: rgb(44, 44, 44);
+    padding: 12px;
+    color: aliceblue;
+}
+
+.nav-link {
+    color: darkgrey;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+.navbar-brand {
+    color: darkgrey;
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+}
